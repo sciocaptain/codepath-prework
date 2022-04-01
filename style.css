@@ -1,0 +1,116 @@
+/*Organization Order (Alphabetical): Tags, ID's, Classes */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2rem;
+  background-color: slategrey;
+  color: white;
+  overflow-x: hidden;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+}
+
+#button1 {
+  background: lightgrey;
+}
+#button1:active,
+#button1.lit {
+  background: blue;
+}
+
+#button2 {
+  background: lightgrey;
+}
+#button2:active,
+#button2.lit {
+  background: yellow;
+}
+
+#button3 {
+  background: lightgrey;
+}
+#button3:active,
+#button3.lit {
+  background: green;
+}
+
+#button4 {
+  background: lightgrey;
+}
+#button4:active,
+#button4.lit {
+  background: blue;
+}
+
+#button5 {
+  background: lightgrey;
+}
+#button5:active,
+#button5.lit {
+  background: green;
+}
+
+#button6 {
+  background: lightgrey;
+}
+#button6:active,
+#button6.lit {
+  background: yellow;
+}
+
+#button7 {
+  background: lightgrey;
+}
+#button7:active,
+#button7.lit {
+  background: blue;
+}
+
+#button8 {
+  background: lightgrey;
+}
+#button8:active,
+#button8.lit {
+  background: green;
+}
+
+#gameButtonArea > button {
+  width: 175px;
+  height: 175px;
+  display: inline-grid;
+}
+
+#startBtn,
+#stopBtn {
+  margin: 20px auto;
+}
+
+#timer{
+  font-size: 50px;
+}
+
+.buttonColor {
+  color: pink;
+}
+
+.centerItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.kirbyImage {
+  width: 100%;
+  height: 100%;
+}
