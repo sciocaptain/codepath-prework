@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1 class="centerItem">Light and Sound Memory Game</h1>
+
+    <p id="welcomeMessage" class="centerItem">Welcome to the game!</p>
+
+    <p id="mistakesCounter" class="centerItem hidden">You have 0 mistakes</p>
+
+    <button id="startBtn" class="centerItem" onclick="startGame()">
+      Start
+    </button>
+
+    <button id="stopBtn" class="hidden centerItem" onclick="stopGame()">
+      Stop
+    </button>
+
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startTone(1); showKirby(1)"
+        onmouseup="stopTone(); hideKirby(1)"
+      >
+        <img
+          id="kirby1"
+          class="kirbyImage hidden"
+          src="https://cdn.glitch.global/304c9cb8-5330-4ffa-be6c-7ca4b9d8bd2e/KirbyKSSUwalk.png?v=1648683500854"
+          alt="nope"
+        />
+      </button>
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startTone(2); showKirby(2)"
+        onmouseup="stopTone(); hideKirby(2)"
+      >
+        <img
+          id="kirby2"
+          class="kirbyImage hidden"
+          src="https://cdn.glitch.global/304c9cb8-5330-4ffa-be6c-7ca4b9d8bd2e/KirbyKSSUwalk.png?v=1648683500854"
+          alt="nope"
+        />
+      </button>
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startTone(3); showKirby(3)"
+        onmouseup="stopTone(); hideKirby(3)"
+      >
+        <img
+          id="kirby3"
+          class="kirbyImage hidden"
+          src="https://cdn.glitch.global/304c9cb8-5330-4ffa-be6c-7ca4b9d8bd2e/KirbyKSSUwalk.png?v=1648683500854"
+          alt="nope"
+        />
+      </button>
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startTone(4); showKirby(4)"
+        onmouseup="stopTone(); hideKirby(4)"
+      >
+        <img
+          id="kirby4"
+          class="kirbyImage hidden"
+          src="https://cdn.glitch.global/304c9cb8-5330-4ffa-be6c-7ca4b9d8bd2e/KirbyKSSUwalk.png?v=1648683500854"
+          alt="nope"
+        />
+      </button>
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startTone(5); showKirby(5)"
+        onmouseup="stopTone(); hideKirby(5)"
+      >
+        <img
+          id="kirby5"
+          class="kirbyImage hidden"
+          src="https://cdn.glitch.global/304c9cb8-5330-4ffa-be6c-7ca4b9d8bd2e/KirbyKSSUwalk.png?v=1648683500854"
+          alt="nope"
+        />
+      </button>
+      <button
+        id="button6"
+        onclick="guess(6)"
+        onmousedown="startTone(6); showKirby(6)"
+        onmouseup="stopTone(); hideKirby(6)"
+      >
+        <img
+          id="kirby6"
+          class="kirbyImage hidden"
+          src="https://cdn.glitch.global/304c9cb8-5330-4ffa-be6c-7ca4b9d8bd2e/KirbyKSSUwalk.png?v=1648683500854"
+          alt="nope"
+        />
+      </button>
+      <button
+        id="button7"
+        onclick="guess(7)"
+        onmousedown="startTone(7); showKirby(7)"
+        onmouseup="stopTone(); hideKirby(7)"
+      >
+        <img
+          id="kirby7"
+          class="kirbyImage hidden"
+          src="https://cdn.glitch.global/304c9cb8-5330-4ffa-be6c-7ca4b9d8bd2e/KirbyKSSUwalk.png?v=1648683500854"
+          alt="nope"
+        />
+      </button>
+      <button
+        id="button8"
+        onclick="guess(8)"
+        onmousedown="startTone(8); showKirby(8)"
+        onmouseup="stopTone(); hideKirby(8)"
+      >
+        <img
+          id="kirby8"
+          class="kirbyImage hidden"
+          src="https://cdn.glitch.global/304c9cb8-5330-4ffa-be6c-7ca4b9d8bd2e/KirbyKSSUwalk.png?v=1648683500854"
+          alt="nope"
+        />
+      </button>
+    </div>
+
+    <p id="timer" class="centerItem">120</p>
+  </body>
+</html>
