@@ -51,9 +51,9 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
 [
-https://www.geeksforgeeks.org/javascript-cleartimeout-clearinterval-method/
-https://stackoverflow.com/questions/10485385/how-do-i-correctly-use-setinterval-and-clearinterval-to-switch-between-two-diffe
-https://www.w3schools.com/js/js_htmldom_html.asp
+https://www.geeksforgeeks.org/javascript-cleartimeout-clearinterval-method/ <br />
+https://stackoverflow.com/questions/10485385/how-do-i-correctly-use-setinterval-and-clearinterval-to-switch-between-two-diffe <br />
+https://www.w3schools.com/js/js_htmldom_html.asp <br />
 https://www.w3schools.com/cssref/css3_pr_align-items.asp
 ]
 
@@ -79,7 +79,9 @@ Recently, I have gained an interest in pianos, so the frequencies the blank game
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+**Video recorded with Zoom and edited with WeVideo <br />**
+[My 5-minute Interview Recording](https://drive.google.com/file/d/1ysEEtP_nhT_qXf9MYEfnqCVWm7LhPRrM/view?usp=sharing)
+
 
 
 ## License
